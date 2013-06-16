@@ -52,7 +52,7 @@ html {
 	overflow-y: scroll; /* Force a scrollbar in non-IE */
 	-webkit-text-size-adjust: 100%; /* Prevent iOS text size adjust on orientation change without disabling user zoom */
 	-ms-text-size-adjust: 100%;
-	background: #fff0d6;
+	background: #eec5a4;
 }
 
 body {
@@ -70,7 +70,7 @@ body:before {
 	height: 10px;
 	left: 0;
 	width: 100%;
-	background: #582489;
+	background: #8f1f1f;
 	content: "";
 }
 
@@ -265,7 +265,7 @@ a, a:visited {
 
 a:hover {
 	color: black;
-	border-bottom: 2px solid #582489;
+	border-bottom: 2px solid #8f1f1f;
 }
 
 a:focus {
@@ -392,7 +392,7 @@ sub {
 ---------------------------------------- */
 
 #main-header:hover {
-	color: #582489;
+	color: #8f1f1f;
 }
 
 #main-nav, #main-header {
@@ -429,7 +429,7 @@ button, pre {
 }
 
 button:hover, pre:hover {
-	background: #582489;
+	background: #8f1f1f;
 	box-shadow: inset 1px 1px 20px black;
 }
 
