@@ -4,10 +4,10 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		
-		<title>Gridless - An awesome HTML5 &amp; CSS3 boilerplate for mobile first responsive, cross-browser websites</title>
+		<title>BACH - Bay Area Consortium of Hackerspaces</title>
 
 		<!-- Meta tags -->
-		<meta name="description" content="Gridless is an optionated HTML5 and CSS3 boilerplate for making mobile first responsive, cross-browser websites with beautiful typography." />
+		<meta name="description" content="BACH, short for the Bay Area Consortium of Hackerspaces, is an association of member hackerspaces in the San Francisco Bay Area." />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 		<!-- Don't forget to update the bookmark icons in root: http://mathiasbynens.be/notes/touch-icons -->
@@ -24,17 +24,16 @@
 	<body>
 		<header class="group">
 			<hgroup id="main-header">
-				<h1>BACH </h1>
+				<h1><abbr>BACH</abbr></h1>
 			</hgroup>
 			<nav id="main-nav">
 				<ul>	
 					<!--<li><a href="docs/index.html">Documentation</a></li>-->
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Join</a></li>
-					<li><a href="#">Resources</a></li>
-					<li><a href="#">Exchange</a></li>
-					<li><a href="#">Residence</a></li>
-					<li><a href="https://github.com/thatcoolguy/gridless-boilerplate">Fork me</a></li>
+					<li><a href="#join">Join</a></li>
+					<li><a href="http://hackerspaces.org/wiki/Bay_Area_Consortium_of_Hackerspaces">Wiki Page</a></li>
+					<li><a href="#exchanges">Exchanges</a></li>
+					<li><a href="#residencies">Residencies</a></li>
+					<li><a href="https://github.com/chgrp/bach">Fork</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -43,99 +42,104 @@
 
 		<article id="intro">
 			<h2>Bay Area Consortium of Hackerspaces</h2>
-			<p>Gridless is an optionated <abbr>HTML</abbr>5 and <abbr>CSS</abbr>3 boilerplate for making mobile first responsive, cross-browser websites with beautiful typography.</p>
+			<p><img src="assets/img/bach_logo.png" id="logo" /><abbr>BACH</abbr> is a loosely-organized association of hackerspaces in the San Francisco Bay Area.<br/>
+			<a href="#join"><strong>Join <abbr>BACH</abbr></strong></a> to collaborate.<br/>
+			<strong>Learn more</strong> about <a href="#exchanges">Exchanges</a> and <a href="#residencies">Residencies</a>.</p>
 		</article>
 
 		<div class="group">
 
-			<section id="demo">
-				<a href="demo/demo.html"><button>Join BACH</button></a>
+			<section id="join-button">
+				<a href="#join"><button>Join BACH</button></a>
 			</section>
 
-			<section id="download">
-				<a href="https://github.com/thatcoolguy/gridless-boilerplate/tarball/master"><button>Fork this Site</button></a>
+			<section id="outsiders-button">
+				<a href="#outsiders"><button>Bay Area Outsider?</button></a>
 			</section>
 		</div>
 		
 		<hr />
 
-		<section id="features">
+		<section id="description">
 
 			<div class="group">
-				<article id="dby">
+				<article id="about">
 					<header>
-						<h2><abbr>DBY</abbr> (Don't Bore Yourself) approach</h2>
+						<h2>About</h2>
 					</header>
-					<p>Gridless takes the boring parts of making websites and webapps out. It comes packed with everything you're tired of doing in every new project: <a href="http://necolas.github.com/normalize.css/"><abbr>CSS</abbr> normalization</a>, <a href="http://www.informationarchitects.jp/en/100e2r/">beautiful typography</a>, a well-organized folder structure, <a href="http://mathiasbynens.be/notes/safe-css-hacks"><abbr>IE<abbr> bugfixes</a> and other nice tricks.</p>
+					<p>Learn more on <a href="http://hackerspaces.org/wiki/Bay_Area_Consortium_of_Hackerspaces/">hackerspaces.org</a>. <abbr>BACH</abbr> strives to be every thin, with almost no over-head. We exist to help member spaces coordinate, communicate, and collaborate. Above all, we support the Bay Area hackerspace community's existent inter-dependence and resilience. </p>
 				</article>
 
-				<article id="responsive">
+				<article id="email">
 					<header>
-						<h2>Progressive responsiveness</h2>
+						<h2>Email & IRC</h2>
 					</header>
-					<p>Gridless uses <a href="http://www.lukew.com/ff/entry.asp?933">mobile first</a> <a href="http://www.alistapart.com/articles/responsive-web-design">responsive web design</a> to adapt itself to the device's width. This means it'll work anywhere: old feature phones, newer smartphones, tablets, notebooks and bigger desktops. <abbr>IE</abbr>6/7/8 don't support media queries, so we use <a href="https://github.com/scottjehl/Respond/">Respond.js</a> to polyfill that.</p>
+					<p><strong>Announce</strong> list: <a href="https://lists.riseup.net/www/subscribe/bayareahackerspaces">subscribe</a>&nbsp;&nbsp;|&nbsp;&nbsp;<strong>Discuss</strong> list: <a href="https://lists.riseup.net/www/subscribe/bayareahackerspaces-discuss">subscribe</a></p>
+					<p><strong>IRC</strong> on oftc.net: <a href="http://webchat.oftc.net/?channels=%23bach">#bach</a>&nbsp;&nbsp;|&nbsp;&nbsp;<strong>BACKUP IRC</strong> on freenode.net: <a href="http://webchat.freenode.net/?channels=%23b.a.c.h.">#b.a.c.h.</a></p> 
 				</article>
 			</div>
 
 			<div class="group">
-				<article id="simple">
+				<article id="join">
 					<header>
-						<h2>Agnostic starting point</h2>
+						<h2>Join BACH</h2>
 					</header>
-					<p>Gridless is extremely simple and straightforward. It doesn't come with any predefined grid systems <!--<a href="#">(and here's why you shouldn't even be using them)</a>--> or non-semantic classes. Gridless is meant to be a starting point, <strong>which should be edited, tweaked and overwritten to suit each project's design</strong> requirements.
+					<p>Join the <a href="#email">email lists</a> and <a href="http://github.com/chgrp/bach/">fork this site</a> to add your group below. Contribute ideas and relevant projects to our <a href="http://hackerspaces.org/wiki/Bay_Area_Consortium_of_Hackerspaces">wiki page</a>. Spaces involved so far:</p>
+					<ul>
+						<li>Ace Monster Toys</li>
+						<li>Counter Culture Labs</li>
+						<li>HackerDojo</li>
+						<li>HayHackers</li>
+						<li>LOLspace (Oakland Makerspace)</li>
+						<li>Marin Hackerspace</li>
+						<li>Mothership Hackermoms</li>
+						<li>Noisebridge</li>
+						<li>San Leandro Hackerspace</li>
+						<li>Sudo Room</li>
+					</ul>
 				</article>
 
-				<!--<article id="documented">
+			</div>
+		</section>
+
+		<hr />
+
+		<section id="outsiders">
+
+			<div class="group">
+				<article id="exchanges">
 					<header>
-						<h2>Well documented</h2>
+						<h2>Hacker Exchanges</h2>
 					</header>
-					<p>What's a good library without good documentation? Gridless has <a href="docs/index.html">awesome documentation</a> so if you're going mad trying to understand something, just <a href="docs/index.html">check it out</a>.
-				</article>-->
+					<p>Are you an individual, hackerspace, or other group interested in an exchange program with Bay Area hackerspaces? Might you have some basic resources available like a space to work, possibly room and board for one or more guests?</p>
+					<p><strong>Fill out our <a href="https://docs.google.com/forms/d/1ZHntws3RC-GC6ccGr7liQ9gg1zTHc7RR0r0erg5vxBo/viewform">exchange form</a></strong> to let us know you are interested.</p>
+					<p>Check back here for more updates.</p>
+				</article>
+
+				<article id="residencies">
+					<header>
+						<h2>Hackers-in-Residence</h2>
+					</header>
+					<p>Want to share your skills, experience, and projects with Bay Area hackerspaces? Are you a creative person seeking time and space to work on an excellent project, especially one that can be facilitated through resources at hackerspaces?</p>
+					<p><strong>Fill out our <a href="https://docs.google.com/forms/d/1VWJCP-GtlwbnHNCV6_p9EVAFJcZnaLBUVPUxmbDrdz4/viewform">hacker-in-residence form</a></strong> to let us know you are interested.</p>
+					<p>Check back here for more updates.</p>
+				</article>
 			</div>
 		</section>
 
 		<hr />
 
 		<div class="group">
-			<section id="source">
+			<section id="footer">
 				<article>
 					<header>
-						<h2>Source code</h2>
 					</header>
-					<p id="fork"><a href="https://github.com/thatcoolguy/gridless-boilerplate">Fork me on GitHub: thatcoolguy/gridless-boilerplate</a></p>
-					<p>Gridless is open-source, licensed under <a href="http://unlicense.org/">Unlicense</a>. If you'd like to contribute, clone the GitHub repo, send a pull request or an issue.</p>
-					<pre><code>$ git clone git://github.com/thatcoolguy/gridless-boilerplate.git</code></pre>
-				</article>
-			</section>
-			<section id="support">
-				<article>
-					<header>
-						<h2>Browser support</h2>
-					</header>
-					<p>Gridless is cross-browser compatible:</p>
-					<div class="group">
-						<figure>
-							<img src="assets/img/firefox.png" />
-							<figcaption>Firefox 3.5+</figcaption>
-						</figure>
-						<figure>
-							<img src="assets/img/opera.png" />
-							<figcaption>Opera 11+</figcaption>
-						</figure>
-						<figure>
-							<img src="assets/img/chrome.png" />
-							<figcaption>Chrome 11+</figcaption>
-						</figure>
-						<figure>
-							<img src="assets/img/safari.png" />
-							<figcaption>Safari 5+</figcaption>
-						</figure>
-						<figure>
-							<img src="assets/img/ie.png" />
-							<figcaption>Internet Explorer 6+</figcaption>
-						</figure>
-					</div>
-					<p>Even though some of these browsers are very recent, Gridless should work in any modern browser.</p>
+					<p>This website is available under <a href="http://unlicense.org/">Unlicense</a>. <a href="http://github.com/chgrp/bach/">Fork it</a>. Based on <a href="https://github.com/thatcoolguy/gridless-boilerplate">gridless</a>.</p>
+					<p><!--[if lte IE 8]><span style="filter: FlipH; -ms-filter: "FlipH"; display: inline-block;"><![endif]-->
+					<span style="-moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); display: inline-block;">
+    ©
+					</span>
+					<!--[if lte IE 8]></span><![endif]--> CopyLeft <abbr>BACH</abbr>, All Wrongs Reversed, 2013.</p>
 				</article>
 			</section>
 		</div>

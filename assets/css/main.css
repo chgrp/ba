@@ -419,7 +419,7 @@ button {
 	width: 100%;
 	padding: 1em;
 	border: none;
-	margin: 0 0 2.625em;
+	margin: 0 0 2.25em;
 }
 
 button, pre {
@@ -437,16 +437,17 @@ button:hover, pre:hover {
 	text-align: center;	
 }
 
-#features {
+#description {
 	margin-top: 3em;
 }
 
-#features article {
+#description article {
 	margin-bottom: 3em;
 }
 
 #intro p {
 	font-weight: bold;
+	margin-bottom:40px;
 }
 
 pre {
@@ -463,6 +464,11 @@ figure {
 #docs {
 	width: 50%;
 	font-family: Palatino, Georgia, serif;
+}
+
+#logo {
+	float:left;
+	margin-right:20px;
 }
 
 /* Media queries
@@ -494,14 +500,19 @@ figure {
 		width: 90%;
 	}
 
-	#dby, #responsive, #intro, #download, #demo, #source, #support {
+	#about, #email, #intro, #outsiders-button, #join-button, #exchanges, #residencies {
 		float: left;
 		width: 45%;
 		margin-left: 2.5%;
 		margin-right: 2.5%;
 	}
 
-	#simple {
+	#join {
+		width: 45%;
+		margin: 0 auto;
+	}
+
+	#footer {
 		width: 45%;
 		margin: 0 auto;
 	}
