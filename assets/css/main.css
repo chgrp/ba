@@ -512,6 +512,11 @@ figure {
 		margin: 0 auto;
 	}
 
+	#code-of-conduct {
+		width: 95%;
+		margin: 0 auto;
+	}
+
 	#footer {
 		width: 45%;
 		margin: 0 auto;
